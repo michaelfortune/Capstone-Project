@@ -66,23 +66,30 @@ Results
 To begin with, there are seasonal variations, with the most review being submitted in Summer. This is 
 significantly more than the other three seasons. Winter show a slight reduction.
 
+
 ![SeasonalReviews](SeasonalReview.jpg)
 
+
 As a simple barchart, this appears as follows:
+======
 
 ![SeasonalReviews](barchart.jpg)
+
 
 What is apparent, is that there is little difference in the reviews (stars)
 
 Looking at this more closely, we add Gender into the mix.
 
+
 ![SeasonalReviews](SeasonGender.jpg)
+
 
 From this, it is clear that females apppear to be more active in posting reviews. However, once again, 
 the average values do not show marked differences.
 
 Looking at sentiment, this correlated well in many cases to the stars. People who have a negative experice 
 are often more troubled by this than the converse with people having a positive experience e.g.
+
  
 "I wish I could choose no stars. This is one of the worst...."
 
@@ -92,7 +99,9 @@ are often more troubled by this than the converse with people having a positive 
 
 "HORRIBLE service"
 
+
 There are many situations however, where the review and star ratings conflict. Take for example:
+
 
 "..A great deal! ... they were tasty. A pretty good experience", 
 
@@ -100,7 +109,9 @@ There are many situations however, where the review and star ratings conflict. T
 
 "I would definitely come back again"
 
+
 and contrast these with:
+
 
 "Quality has degraded", 
 
@@ -108,6 +119,7 @@ and contrast these with:
 
 "AWFUL EMPLOYEES"
  
+
 All of the above, good and bad, are rated as three stars and you could find simlar comments up and down the scale. 
 
 If we examine this more closely, starting with negative sentiment, then the % of each of the star rating categories is
