@@ -63,9 +63,12 @@ as well as the Harvard Inquirer Dictionary.
 Results
 ----------
 
+#### Seasons
+
 To begin with, there are seasonal variations, with the most review being submitted in Summer. This is 
 significantly more than the other three seasons. Winter show a slight reduction.
 
+##### Percentage reviews by season table
 
 ![SeasonalReviews](SeasonalReview.jpg)
 
@@ -78,16 +81,20 @@ As a simple barchart, this appears as follows:
 
 What is apparent, is that there is little difference in the reviews (stars)
 
+#### Gender
+
 Looking at this more closely, we add Gender into the mix.
 
+##### Percentage reviews by season and gender table
 
 ![SeasonalReviews](SeasonGender.jpg)
-
 
 From this, it is clear that females apppear to be more active in posting reviews. However, once again, 
 the average values do not show marked differences.
 
-Looking at sentiment, this correlated well in many cases to the stars. People who have a negative experice 
+#### Sentiment
+
+Looking at sentiment, this correlated well in many cases to the stars. People who have a negative experience 
 are often more troubled by this than the converse with people having a positive experience e.g.
 
  
@@ -125,6 +132,8 @@ All of the above, good and bad, are rated as three stars and you could find siml
 If we examine this more closely, starting with negative sentiment, then the % of each of the star rating categories is
 represented by negative reviews as follows:
  
+##### Percentage reviews for negative sentiment by star
+
 ![SeasonalReviews](badsentimenttab.jpg)
 
 or visually, it looks like this
@@ -135,6 +144,8 @@ While you would expect the numbers to be closely correlated to the 1 and 2 star 
 that there are so many reviews that seem to conflict with the star ratings.
 
 The same is true of positive ratings:
+
+##### Percentage reviews for positive sentiment by star
 
  ![SeasonalReviews](goodsentimenttab.jpg)
 

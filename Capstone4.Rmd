@@ -63,7 +63,7 @@ as well as the Harvard Inquirer Dictionary.
 Results
 ----------
 
-To begin with, there are seasonal variations, with the most review being submitted in Summer. This is 
+## To begin with, there are seasonal variations, with the most review being submitted in Summer. This is 
 significantly more than the other three seasons. Winter show a slight reduction.
 
 

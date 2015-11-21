@@ -42,9 +42,10 @@ and their variations and matched these to the names in the user list. I included
 there was a match and there was no ambiguity e.g. Bobby could be Robert or Roberta etc. I also 
 focused mainly on English names. The main source of gender data was the Complete US Census 
 Bureau names list data, supplemented with Social Security data and data that I had previously 
-comiled and used for other purposes. 
+compiled and used for other purposes. 
 
 For the sake of simplicity, starts of seasons are defined follows:
+
 20 Mar - Spring,
 
 21 Jun - Summer,
@@ -53,6 +54,9 @@ For the sake of simplicity, starts of seasons are defined follows:
 
 21 Dec - Winter
    
+THe seasons were examined to atempt to ascertain whether, or not there are indeed seasonal 
+variations in the scores being posted, using the dates of the reviews.
+ 
 Turning to sentiment analysis, in an attempt to extract, identify and characterise the sentiment content 
 of reviews submitted, I compiled a lexicon of positive, negative and neutral words expressing 
 sentiment and then matched these against the text contained in the reviews. Finally, I compared the
@@ -60,12 +64,21 @@ results with other review responses including e.g. stars to explore deviations i
 The words contained in my lexicon included words extracted from the lexicon produced by Bing Liu (UIC) 
 as well as the Harvard Inquirer Dictionary.   
 
+The sentiment analysis involves parsing the review text and attempting to discern the sentiment using 
+a lexicon matching method, why remaining cogniscant to the syntax. Thus the sententce: "The restaurand 
+had a beautiful view and gorgeous furniture, but the food and service was awful", contains sentiment that
+is both negative and positive and both sentiments need to be considered and compared with the 
+corresponding star score given..   
+
 Results
 ----------
+
+#### Seasons
 
 To begin with, there are seasonal variations, with the most review being submitted in Summer. This is 
 significantly more than the other three seasons. Winter show a slight reduction.
 
+##### Percentage reviews by season table
 
 ![SeasonalReviews](SeasonalReview.jpg)
 
@@ -78,16 +91,20 @@ As a simple barchart, this appears as follows:
 
 What is apparent, is that there is little difference in the reviews (stars)
 
+#### Gender
+
 Looking at this more closely, we add Gender into the mix.
 
+##### Percentage reviews by season and gender table
 
 ![SeasonalReviews](SeasonGender.jpg)
-
 
 From this, it is clear that females apppear to be more active in posting reviews. However, once again, 
 the average values do not show marked differences.
 
-Looking at sentiment, this correlated well in many cases to the stars. People who have a negative experice 
+#### Sentiment
+
+Looking at sentiment, this correlated well in many cases to the stars. People who have a negative experience 
 are often more troubled by this than the converse with people having a positive experience e.g.
 
  
@@ -125,6 +142,8 @@ All of the above, good and bad, are rated as three stars and you could find siml
 If we examine this more closely, starting with negative sentiment, then the % of each of the star rating categories is
 represented by negative reviews as follows:
  
+##### Percentage reviews for negative sentiment by star
+
 ![SeasonalReviews](badsentimenttab.jpg)
 
 or visually, it looks like this
@@ -135,6 +154,8 @@ While you would expect the numbers to be closely correlated to the 1 and 2 star 
 that there are so many reviews that seem to conflict with the star ratings.
 
 The same is true of positive ratings:
+
+##### Percentage reviews for positive sentiment by star
 
  ![SeasonalReviews](goodsentimenttab.jpg)
 
