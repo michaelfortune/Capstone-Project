@@ -1,3 +1,6 @@
+---
+output: pdf_document
+---
 Data Science Specialization November 2015
 ===================================
 
