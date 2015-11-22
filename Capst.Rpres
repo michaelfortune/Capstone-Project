@@ -8,7 +8,7 @@ date: 22/11/2015
  
 Yelp Data analysis - Introduction
 === 
-For this project, I analysed the Yelp data, with a view to exploring primarily whether, or not it was possible predict reviews?
+For this project, I analysed the Yelp data, with a view to exploring primarily whether, or not, it was possible predict reviews?
 This in turn, looked at the following:  
 - Does gender influence the content, or score of posted reviews?
 - Are there seasonal differences in the content or score of posted reviews?
@@ -29,11 +29,11 @@ For Sentiment Analysis, I compiled a lexicon of positive, negative and neutral w
 
 Results 
 ===
-In a nutshell, neither seasonal variations, or gender revealed anything particularly useful, other than there seemed to be more review by females and slightly more overall in summer. Scores were similar throughout.
+In a nutshell, neither seasonal variations, nor gender revealed anything particularly useful, other than there seemed to be more reviews by females and slightly more overall in summer. Scores were similar throughout.
 
-Sentiment is where there was a marked difference between the scores and the sentiment expressed in the reviews. THese often did not correlate e.g. negative sentiment vs stars
+Sentiment is the area where there was evidence of a marked difference between the scores and the sentiment expressed in the reviews. These often did not correlate e.g. negative sentiment vs stars
 ![bad](bad.jpg)
 
 Discussion / Conclusion
 ===
-Predicting reviews and scores is an uphill task. There is often little consistency between the scores and reviews and what one reviewer scores against a review may be completely different to another reviwer with a near identical review. Seasonal and gender variations do not provide much help. THere is also some evidence that reviwers may be influenced by previous reviews too. Availability of better demographic data would certainly help. Despite the deficiencies, many consumers make use of sites like Yelp before making a purchase, or otherwise spending money, as do businesses looking to improve their customer experiences and ultimately turnover. However, a more objective approach is what is desirable. 
+Predicting reviews and scores is an uphill task. There is often little consistency between the scores and reviews and what one reviewer scores against a review may be completely different to another reviewer with a near identical review. Seasonal and gender variations do not provide much help. There is also some evidence that reviewers may be influenced by previous reviews too. Availability of better demographic data would certainly help. Despite the deficiencies, many consumers make use of sites like Yelp before making a purchase, or otherwise spending money, as do businesses looking to improve their customer experiences and ultimately turnover. However, a more objective approach is what is desirable. 
